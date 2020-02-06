@@ -17,5 +17,8 @@ namespace WFA_UserLogin
         {
             InitializeComponent();
         }
+
+
+        // Randon Nesnesi kullanarak rastgele sayı üretilecek!
     }
 }
