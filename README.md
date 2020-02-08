@@ -23,3 +23,10 @@
   5) Kullanıcıya Giriş Sağlanamadı mesajı verdirilecek
   
 * Kullanıcı, Giriş sağlar ise, Hoşgeldiniz uyarısı verdirilecek
+
+
+* NOT : proje ui kısmı hata veriyor ise, MetroUI dll'i hatalı olabilir. Yapmanız gereken paketi kaldırıp tekrar yüklemeniz olacaktır.
+  1) Tools > NuGet Package Manager > Package Manager Console
+  2) uninstall-package MetroModernUI
+  3) install-package MetroModernUI
+  4) Projeyi build ediniz
